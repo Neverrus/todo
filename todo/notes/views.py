@@ -16,6 +16,3 @@ def index(request):
         form = AddNoteForm()
     notes = Note.objects.all()
     return render(request, "note_list.html", {"notes": notes, "form": form})
-
-
-
