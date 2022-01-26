@@ -1,0 +1,11 @@
+.venv/
+venv/
+.idea/
+
+pycache/
+*.py[cod]
+*$py.class
+
+# Media files
+media/
+
